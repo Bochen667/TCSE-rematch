@@ -1,4 +1,4 @@
-※所有測試都是使用本地端ollama模型，請務必要使用Dify本地端匯入TCSE-Dify.yml及安裝對應ollama模型才可以正常執行<br>
+※所有測試都是使用本地端ollama模型，請務必要安裝對應ollama模型才可以正常執行<br>
 chromadb需要比較久的啟動時間，初次啟動建議等個10秒左右等待chromadb開啟在使用<br>
 <br>
 
