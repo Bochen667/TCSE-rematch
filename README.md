@@ -5,5 +5,5 @@
 透過 Podcast 式的語音輸出，讓學習者能在通勤、運動等碎片時間進行沉浸式學習。<br>
 
 # Code
-細部內容看python-backend、shadcn-frontent
-有提供docker，執行docker-compose-up--build.bat開啟code
+細部內容看python-backend、shadcn-frontent <br>
+有提供docker，執行docker-compose-up--build.bat開啟code <br>
