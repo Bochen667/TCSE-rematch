@@ -6,3 +6,4 @@
 
 # Code
 細部內容看python-backend、shadcn-frontent
+有提供docker，執行docker-compose-up--build.bat開啟code
