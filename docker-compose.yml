@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  frontend-shadcn:
+    build: ./shadcn-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend-llm-manage
+      - backend-chromadb
+    restart: on-failure
+
+  backend-llm-manage:
+    build: ./python-backend
+    command: python LLM_Manage.py
+    ports:
+      - "4000:4000"
+    restart: on-failure
+
+  backend-chromadb:
+    build: ./python-backend
+    command: python chromadb_helper.py
+    ports:
+      - "5001:5001"
+    restart: on-failure

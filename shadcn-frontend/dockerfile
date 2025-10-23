@@ -1,0 +1,18 @@
+# 使用官方 Node.js 映像檔
+FROM node:20-alpine
+
+# 建立 app 資料夾
+WORKDIR /app
+
+# 安裝依賴
+COPY package*.json ./
+RUN npm install
+
+# 複製其餘檔案
+COPY . .
+
+# 對外開放 port
+EXPOSE 3000
+
+# 啟動開發伺服器
+CMD ["npm", "run", "dev"]
