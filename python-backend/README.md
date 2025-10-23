@@ -2,6 +2,8 @@
 chromadb需要比較久的啟動時間，初次啟動建議等個10秒左右等待chromadb開啟在使用<br>
 <br>
 
+api服務採用flask框架製作
+
 <br>
 系統架構大約分成5個區塊，1~3均使用ollama模型，具體模型名稱可以在manage.py內查看<br>
 1.CODE分析(ollama)<br>
